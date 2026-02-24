@@ -1,5 +1,16 @@
 # PalindromeCheckerApp
-This is a basic app about palindrome.
-In this project we learn how to make project based on palindrome. Tech Stack used here is Java . This is the welcome page for it.
-Opened git hub and made a new branch called UC3 and added code for the app PalindromeCheckerApp,
-this branch is to show the Palindrome check using String reverse.
+This is a Basic App about palindrome checker
+
+UC1:
+where we created the welcome page for our app. this is the first page that will show up on out app.
+
+UC2:
+We created a Hard coded palindrome . A "hard-coded" palindrome in programming refers to embedding a specific, known palindromic string or number directly into the source code, rather than having the program calculate it or receive it from an external user input.
+
+UC3:
+We Created a Palindrome Checker using reverse String. We take the string text and use StringBuilder. reverse() to create its reverse. If the original and reversed strings are the same, then it is a palindrome.
+
+UC4:
+We created a Character array Based Palindrome Check. To check if a character array is a palindrome, the most efficient method involves using a two-pointer approach which compares characters from the start and end of the array simultaneously, moving inward.
+
+

@@ -16,3 +16,5 @@ We created a Character array Based Palindrome Check. To check if a character arr
 UC5:
 We created a Stack based Palindrome Checker .A stack-based palindrome checker determines if a string reads the same forwards and backwards by using the stack's Last-In-First-Out (LIFO) property to reverse the string for comparison with the original.
 
+UC6:
+We created a Stack and Queue Based Palindrome Checker.To check if a sequence is a palindrome using a queue and a stack, you exploit their opposite behaviors: a queue maintains the original order (FIFO), while a stack reverses the order (LIFO).

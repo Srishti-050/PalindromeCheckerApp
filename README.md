@@ -15,3 +15,4 @@ We created a Character array Based Palindrome Check. To check if a character arr
 
 UC5:
 We created a Stack based Palindrome Checker .A stack-based palindrome checker determines if a string reads the same forwards and backwards by using the stack's Last-In-First-Out (LIFO) property to reverse the string for comparison with the original.
+

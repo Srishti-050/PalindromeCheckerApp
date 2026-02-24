@@ -18,3 +18,6 @@ We created a Stack based Palindrome Checker .A stack-based palindrome checker de
 
 UC6:
 We created a Stack and Queue Based Palindrome Checker.To check if a sequence is a palindrome using a queue and a stack, you exploit their opposite behaviors: a queue maintains the original order (FIFO), while a stack reverses the order (LIFO).
+
+UC7:
+We created a Deque-Based Optimized Palindrome Checker. The process uses the dual functionality of the deque to compare characters from both ends of the string simultaneously.

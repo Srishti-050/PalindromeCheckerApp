@@ -13,4 +13,5 @@ We Created a Palindrome Checker using reverse String. We take the string text an
 UC4:
 We created a Character array Based Palindrome Check. To check if a character array is a palindrome, the most efficient method involves using a two-pointer approach which compares characters from the start and end of the array simultaneously, moving inward.
 
-
+UC5:
+We created a Stack based Palindrome Checker .A stack-based palindrome checker determines if a string reads the same forwards and backwards by using the stack's Last-In-First-Out (LIFO) property to reverse the string for comparison with the original.

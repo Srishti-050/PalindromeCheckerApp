@@ -25,5 +25,8 @@ We created a Deque-Based Optimized Palindrome Checker. The process uses the dual
 UC8:
 We created a Linked List based Palindrome Checker. A linked list-based palindrome is a data structure, specifically a singly linked list, that reads the same forwards and backwards.
 
-UC9
+UC9:
 We Created a Recursive Palindrome Checker. A recursive palindrome check is a computer science algorithm that determines if a sequence (string or number) reads the same forwards and backwards by breaking the problem into smaller, identical sub-problems.
+
+UC10:
+We Created a Case Insensitive and Space Ignored Palindrome .A case-insensitive and space-ignored palindrome (often called a "sentence palindrome" or "phrase palindrome") is a sequence of characters that reads the same forward and backward, ignoring capitalization, spaces, and usually punctuation.

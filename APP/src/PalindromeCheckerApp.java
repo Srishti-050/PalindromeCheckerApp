@@ -1,42 +1,46 @@
 /**
  * =========================================================
- * MAIN CLASS - UseCase9RecursivePalindromeCheckerApp
+ * MAIN CLASS - UseCase10PalindromeCheckerApp
  * =========================================================
  *
- * Use Case 9: Recursive Palindrome Checker
+ * Use Case 10: Case-Insensitive & Space-Ignored Palindrome
  *
  * Description:
  * This class checks whether a string is a palindrome
- * using recursion. It compares characters from the
- * beginning and end recursively until the base condition.
+ * by ignoring spaces and case differences.
  *
- * Data Structure: Call Stack
+ * Data Structure: String / Array
  *
  * @author Srishti Singh
- * @version 9.0
+ * @version 10.0
  */
 
 import java.util.Scanner;
 
 public class PalindromeCheckerApp {
 
-    /**
-     * Recursive method to check palindrome
-     */
-    public static boolean isPalindrome(String input, int left, int right) {
+    public static boolean isPalindrome(String input) {
 
-        // Base condition: If pointers cross, string is palindrome
-        if (left >= right) {
-            return true;
+        // 1️⃣ Normalize string
+        // Convert to lowercase
+        input = input.toLowerCase();
+
+        // Remove all spaces using regex
+        input = input.replaceAll("\\s+", "");
+
+        int left = 0;
+        int right = input.length() - 1;
+
+        // 2️⃣ Apply previous two-pointer logic
+        while (left < right) {
+            if (input.charAt(left) != input.charAt(right)) {
+                return false;
+            }
+            left++;
+            right--;
         }
 
-        // If mismatch found
-        if (input.charAt(left) != input.charAt(right)) {
-            return false;
-        }
-
-        // Recursive call
-        return isPalindrome(input, left + 1, right - 1);
+        return true;
     }
 
     public static void main(String[] args) {
@@ -46,7 +50,7 @@ public class PalindromeCheckerApp {
         System.out.print("Enter a string: ");
         String input = scanner.nextLine();
 
-        boolean result = isPalindrome(input, 0, input.length() - 1);
+        boolean result = isPalindrome(input);
 
         if (result) {
             System.out.println("The string is a Palindrome.");

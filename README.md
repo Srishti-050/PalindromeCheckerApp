@@ -30,3 +30,6 @@ We Created a Recursive Palindrome Checker. A recursive palindrome check is a com
 
 UC10:
 We Created a Case Insensitive and Space Ignored Palindrome .A case-insensitive and space-ignored palindrome (often called a "sentence palindrome" or "phrase palindrome") is a sequence of characters that reads the same forward and backward, ignoring capitalization, spaces, and usually punctuation.
+
+UC11:
+We created an Object-Oriented Palindrome Service .An object-oriented approach to checking for a palindrome involves encapsulating the logic within a class, promoting reusability and maintainability rather than using a simple procedural script.

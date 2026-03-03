@@ -21,3 +21,6 @@ We created a Stack and Queue Based Palindrome Checker.To check if a sequence is 
 
 UC7:
 We created a Deque-Based Optimized Palindrome Checker. The process uses the dual functionality of the deque to compare characters from both ends of the string simultaneously.
+
+UC8:
+We created a Linked List based Palindrome Checker. A linked list-based palindrome is a data structure, specifically a singly linked list, that reads the same forwards and backwards.
